@@ -1,0 +1,98 @@
+body{
+    background-color: #EAD8B1;
+    color: rgb(66, 66, 201);
+}
+.main{
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    margin-top: 10%;
+    font-family: "Monotype Corsiva";
+    font-size: 6em;
+    color: #001F3F;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+.nav{
+display: block;
+text-align: center;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+unicode-bidi: isolate;
+font-family: Arial, Helvetica, sans-serif;
+}
+@font-face {
+    font-family: "Monotype Corsiva";
+    src: url(fonts/Monotype-Corsiva-Bold-Italic.ttf) format("truetype");
+}
+.gif{
+    text-align: center;
+}
+p{
+    font-size: xx-large;
+}
+.photo{
+    width: 20%;
+    overflow-clip-margin: content-box;
+}
+ol{
+    font-size: xx-large;
+}
+.last{
+    margin-left: 5%;
+}
+hr {
+    border: none;
+    border-top: 2px solid green; /* Линия теперь будет красного цвета */
+    width: 50%;
+}
+footer{
+    text-align: center;
+}
+small{
+    text-align: center;
+    color: rgb(66, 66, 201);
+    font-size: x-small;
+}
+.small{
+    text-align: center;
+}
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.main{
+    width: 8%;
+    height: 50%;
+    background-color: #001F3F;
+    color: #EAD8B1;
+    border: 2px solid #3A6D8C;
+    border-radius: 5px;
+    box-shadow: #EAD8B1;
+}
+.basic{
+    width: 12%;
+    height: 50%;
+    margin-left: -5px;
+    background-color: #001F3F;
+    color: #EAD8B1;
+    border: 2px solid #3A6D8C;
+    border-radius: 5px;
+    box-shadow: #EAD8B1;
+}
+.a{
+    text-decoration: none;
+    color: #EAD8B1;
+}

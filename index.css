@@ -1,0 +1,117 @@
+html{
+    background-image: url("https://vgreg8.github.io/beat2/epg3gozp.jpg");
+    background-size: cover;
+}
+body{
+    display: block;
+    margin: 8px;
+}
+header{
+    text-align: center; 
+    margin-top: 0;
+    display: block;
+    unicode-bidi: isolate;
+}
+h1{
+    font-size: 44px;
+    margin-top: 0;
+}
+nav ul{
+list-style: none;
+margin: 0;
+}
+
+nav {
+    padding: .5em;
+    text-align: center;
+    position: sticky;
+    text-decoration-color: white
+}
+.white-text{
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Monotype Corsiva";
+    src: url(fonts/Monotype-Corsiva-Bold-Italic.ttf) format("truetype");
+}
+h2{
+    margin-top: 10%;
+    font-family: "Monotype Corsiva";
+    font-size: 6em;
+    text-align: center;
+    color: white;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Beatles{
+    display: block; 
+    margin-top: 140px;
+    margin-left: auto;
+    margin-right: auto
+}
+.center{
+    text-align: center;
+    color: white;
+    font-size: x-small;
+}
+.small{
+    color: white;
+}
+hr {
+    border: none;
+    border-top: 2px solid green; /* Линия теперь будет красного цвета */
+    width: 900px;
+  }
+.main{
+    text-decoration: none;
+}
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-decoration: none;
+}
+.main{
+    width: 8%;
+    height: 50%;
+    background-color: #001F3F;
+    color: #EAD8B1;
+    border: 2px solid #3A6D8C;
+    border-radius: 5px;
+    box-shadow: #EAD8B1;
+}
+.basic{
+    width: 12%;
+    height: 50%;
+    margin-left: -5px;
+    background-color: #001F3F;
+    color: #EAD8B1;
+    border: 2px solid #3A6D8C;
+    border-radius: 5px;
+    box-shadow: #EAD8B1;
+}
+.a{
+    text-decoration: none;
+    color: #EAD8B1;
+    font-weight: bold;
+    font-size: 17px;
+}
